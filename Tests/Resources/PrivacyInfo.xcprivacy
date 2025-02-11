@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSPrivacyTracking</key>
+    <false/>
+    
+    <key>NSPrivacyCollectedDataTypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>IP Address</string>
+            <key>NSPrivacyCollectedDataUsage</key>
+            <string>App Functionality</string>
+        </dict>
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>Device Information</string>
+            <key>NSPrivacyCollectedDataUsage</key>
+            <string>App Functionality</string>
+        </dict>
+    </array>
+
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryNetwork</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <string>AFNetworking handles network requests</string>
+            </array>
+        </dict>
+    </array>
+
+    <key>NSPrivacyThirdPartyAPIs</key>
+    <array>
+        <dict>
+            <key>NSPrivacyThirdPartyAPIName</key>
+            <string>AFNetworking</string>
+            <key>NSPrivacyThirdPartyAPIVendor</key>
+            <string>AFNetworking</string>
+            <key>NSPrivacyThirdPartyAPIUsage</key>
+            <string>Networking</string>
+        </dict>
+    </array>
+</dict>
+</plist>
