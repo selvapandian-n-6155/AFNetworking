@@ -176,6 +176,9 @@
 		4D1907AE2D5B5E0B00ABF8AC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4D1907AD2D5B5E0B00ABF8AC /* PrivacyInfo.xcprivacy */; };
 		4D1907AF2D5B5E0B00ABF8AC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4D1907AD2D5B5E0B00ABF8AC /* PrivacyInfo.xcprivacy */; };
 		4D1907B02D5B5E0B00ABF8AC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4D1907AD2D5B5E0B00ABF8AC /* PrivacyInfo.xcprivacy */; };
+		4D1907B32D5C4C8D00ABF8AC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4D1907B12D5C4C8D00ABF8AC /* PrivacyInfo.xcprivacy */; };
+		4D1907B42D5C4C8D00ABF8AC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4D1907B12D5C4C8D00ABF8AC /* PrivacyInfo.xcprivacy */; };
+		4D1907B52D5C4C8D00ABF8AC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4D1907B12D5C4C8D00ABF8AC /* PrivacyInfo.xcprivacy */; };
 		5F4323BB1BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323B31BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer */; };
 		5F4323BC1BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323B31BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer */; };
 		5F4323BD1BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F4323B31BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer */; };
@@ -319,6 +322,7 @@
 		439E2813247E16DE004467ED /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 		439E2814247E16DF004467ED /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = SOURCE_ROOT; };
 		4D1907AD2D5B5E0B00ABF8AC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		4D1907B12D5C4C8D00ABF8AC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		5F4323B31BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Equifax_Secure_Certificate_Authority_Root.cer; sourceTree = "<group>"; };
 		5F4323B41BF63741003B8749 /* GeoTrust_Global_CA-cross.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeoTrust_Global_CA-cross.cer"; sourceTree = "<group>"; };
 		5F4323B51BF63741003B8749 /* google.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = google.com.cer; sourceTree = "<group>"; };
@@ -496,6 +500,7 @@
 				299522851BBF13C700859F49 /* UIKit+AFNetworking */,
 				2995223B1BBF104D00859F49 /* Supporting Files */,
 				298D7C561BC2C88F00FD3B3E /* Tests */,
+				4D1907B22D5C4C8D00ABF8AC /* PrivacyManifests */,
 				2995223A1BBF104D00859F49 /* Products */,
 			);
 			indentWidth = 4;
@@ -580,6 +585,14 @@
 				323D83E1231D185400C5BFC6 /* WKWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		4D1907B22D5C4C8D00ABF8AC /* PrivacyManifests */ = {
+			isa = PBXGroup;
+			children = (
+				4D1907B12D5C4C8D00ABF8AC /* PrivacyInfo.xcprivacy */,
+			);
+			path = PrivacyManifests;
 			sourceTree = "<group>";
 		};
 		5F4323B21BF63741003B8749 /* Google.com */ = {
@@ -889,6 +902,7 @@
 				2987B0D51BC40AE900179A4C /* adn_2.cer in Resources */,
 				5F4323D71BF63CB0003B8749 /* GoogleComServerTrustChainPath1 in Resources */,
 				E2B10D96233035100004E005 /* Amazon.cer in Resources */,
+				4D1907B52D5C4C8D00ABF8AC /* PrivacyInfo.xcprivacy in Resources */,
 				5F4323DB1BF63CBA003B8749 /* GoogleComServerTrustChainPath2 in Resources */,
 				5F4323BD1BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer in Resources */,
 				5F4323DF1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer in Resources */,
@@ -917,6 +931,7 @@
 				298D7CBE1BC2CA9D00FD3B3E /* AltName.cer in Resources */,
 				5F4323D51BF63CB0003B8749 /* GoogleComServerTrustChainPath1 in Resources */,
 				E2B10D94233035100004E005 /* Amazon.cer in Resources */,
+				4D1907B32D5C4C8D00ABF8AC /* PrivacyInfo.xcprivacy in Resources */,
 				5F4323D91BF63CBA003B8749 /* GoogleComServerTrustChainPath2 in Resources */,
 				5F4323BB1BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer in Resources */,
 				5F4323DD1BF63CCC003B8749 /* GeoTrust_Global_CA_Root.cer in Resources */,
@@ -945,6 +960,7 @@
 				298D7CBB1BC2CA9C00FD3B3E /* AltName.cer in Resources */,
 				5F4323D61BF63CB0003B8749 /* GoogleComServerTrustChainPath1 in Resources */,
 				E2B10D95233035100004E005 /* Amazon.cer in Resources */,
+				4D1907B42D5C4C8D00ABF8AC /* PrivacyInfo.xcprivacy in Resources */,
 				5F4323DA1BF63CBA003B8749 /* GoogleComServerTrustChainPath2 in Resources */,
 				5F4323BC1BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer in Resources */,
 				5F4323CE1BF63741003B8749 /* GoogleInternetAuthorityG2.cer in Resources */,
