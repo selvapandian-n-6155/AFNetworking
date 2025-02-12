@@ -21,18 +21,6 @@
         </dict>
     </array>
 
-    <key>NSPrivacyAccessedAPITypes</key>
-    <array>
-        <dict>
-            <key>NSPrivacyAccessedAPIType</key>
-            <string>NSPrivacyAccessedAPICategoryNetwork</string>
-            <key>NSPrivacyAccessedAPITypeReasons</key>
-            <array>
-                <string>AFNetworking handles network requests</string>
-            </array>
-        </dict>
-    </array>
-
     <key>NSPrivacyThirdPartyAPIs</key>
     <array>
         <dict>
